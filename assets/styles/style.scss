@@ -15,10 +15,21 @@ html {
 h1 {
   font-family: Satisfy;
   font-size: 50px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 h3 {
   color: $dark-coffee;
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+#bio {
+  text-align: center;
 }
 
 p {
@@ -42,6 +53,8 @@ button {
   border: 1px solid $dark-coffee;
   text-transform: uppercase;
   font-size: 13px;
+  display: block;
+  margin: 0 auto;
   &:hover {
     color: $blk;
     border: 1px solid $blk;
@@ -86,12 +99,12 @@ button {
   height: 575px;
 }
 
-.selfie {
-  background-image: url(img/selfie.jpeg);
-  background-position: 50% 60%;
-  height: 550px;
-  background-size: cover;
-}
+// .selfie {
+// background-image: url(img/selfie.jpeg);
+// background-position: 50% 60%;
+// height: 550px;
+//background-size: cover;
+//}
 
 .bio {
   background: yellow;
@@ -113,7 +126,7 @@ button {
 }
 
 .about li {
-  background: url("img/checkmark.png") no-repeat left top;
+  background: url("assets/images/checkmark.png") no-repeat left top;
   background-size: 20px;
   height: 50px;
   padding-left: 25px;
