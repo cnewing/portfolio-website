@@ -2,77 +2,302 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/styles.css" />
-    <title>Christa Newing | Web Developer</title>
+    <title>Christa N.</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://img.icons8.com/wired/64/000000/monitor.png"
+    />
+    <link rel="icon" type="image/png" href="https://img.icons8.com/wired/64/000000/monitor.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"  href="assets/styles/style.css" type="text/css" />
   </head>
   <body>
-    <!-- NAVIGATION -->
-    <section class="sticky-nav">
-      <div class="container">
-        <div class="logo">
-          <h1>Christa Newing</h1>
-        </div>
+    <!-- N A V B A R  -->
 
-        <div class="navigation">
-          <ul>
-            <li class="nav-link">
-              <a href="#Contact">Contact</a>
-            </li>
-            <li class="nav-link">
-              <a href="#Projects">Projects</a>
-            </li>
-            <li class="nav-link">
-              <a href="#About">About Me</a>
-            </li>
-          </ul>
+    <section class="nav sticky-top">
+      <div class="container">
+        <nav class="navbar py-3 navbar-expand-md navbar-dark">
+          <div>
+            <h1 class="name-logo">C.N.</h1>
+          </div>
+
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About-Christa">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- M O B I L E   I C O N  -->
+
+          <div class="order-0 navicon">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target=".dual-collapse2"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- H O M E -->
+
+    <section class="container-fluid h-100" id="home">
+      <div class="">
+          <h1>Hi! I'm Christa</h1>
+          <h3>Full Stack Web Developer</h3>
+          <h6 class="pb-4">
+            <img
+              src="img/location-pin.png"
+              alt="Location"
+              width="15"
+              class="src"
+            />
+            Detroit, MI
+          </h6>
+          <p class="mb-4 pr-5">
+            As a creative in the Web Development industry, I have the skill and
+            passion to bring your projects and ideas to life on the web. I have
+            experience working with various clients that require my graphic design 
+            skillset and experience working in the medical field.
+            When I'm not coding, you can find me at the nearest bookstore or exploring a new city.
+            Thanks for stopping by, check out my work.
+          </p>
+          <p>
+            <a href="#projects">
+              <button>Project</button>
+            </a>
+          </p>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT-->
-    <div class="about-me">
-      <h1>Hi, I'm Christa.</h1>
-      <h3>Web Developer & Graphic Designer</h3>
-      <p>
-        As a creative in a digital world I found it necessary to expand my
-        skills and be a part of innovative technologies. Web development has
-        become a great passion of mine that I am ready to explore in the
-        workforce. My medical background allows me to understand the needs of
-        others, while my design knowledge helps me visualize my web designs more
-        effectively. Combine those two superpowers and you get an artistic web
-        developer ready to service your development needs.
-      </p>
-    </div>
+    <!-- A B O U T -->
 
-    <!-- SKILLS-->
-    <div class="skills">
-      <h1>What I Know</h1>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>MongoDB</li>
-      </ul>
-    </div>
+    <section class="container-fluid about" id="About-Christa">
+      <div class="container">
+        <h3 class="text-center pt-4 pb-3">Skills</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <li>MongoDB</li>
+              <li>Flutter</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- PROJECTS-->
-    <div class="projects">
-      <h1>My Projects</h1>
-    </div>
+    <!-- P R O J E C T S  -->
 
-    <!-- CONTACT ME-->
-    <footer>
-        <div class="contact-me">
-        <ul>
-            <li>Github</li>
-            <li>LinkedIn</li>
-            <li>Email</li>
-        </ul>
-    </footer>
-    </div>
+    <section class="projects" id="projects">
+      <div class="container">
+        <h3 class="text-center pt-4 pb-3">Explore my projects</h3>
+        <div class="row pt-2">
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Run Buddy"
+            /></a>
+            <h6 class="pt-4">
+              <a href="#" target="_blank">Run Buddy</a>
+            </h6>
+            <p>
+              Using HTMl & CSS, this client recieved a site refresh for their landing page.
+              With all of the skilled trainers at Run Buddy, I was able to
+              give the client an organized and user friendly way to showcase
+              the benefits of their training program.
 
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4"><a href="#" target="_blank">Plaza Pizzeria</a></h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4">
+              <a href="#" target="_blank">VP Photography Studios</a>
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4">
+              <a href="#" target="_blank">AirStream Corporation</a>
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4"><a href="#" target="_blank">Project title</a></h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4"><a href="#" target="_blank">Project title</a></h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4"><a href="#" target="_blank">Project title</a></h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+          <div class="col-md-3 p-3">
+            <a href="#" target="_blank"
+              ><img src="img/Laptop-mockup.png" alt="Jones Realtiy Group"
+            /></a>
+            <h6 class="pt-4"><a href="#" target="_blank">Project title</a></h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+              laboriosam odio? Sed sunt saepe eius enim doloribus cupiditate
+              eveniet praesentium dignissimos.
+
+              <br /><br />
+              <a href="#">View live site &raquo;</a><br />
+              <a href="#">See code &raquo;</a><br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- C O N T A C T  -->
+
+    <section class="contact" id="contact-me">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 email-contact text-center">
+            <a href="mailto:email@gmail.com">
+              <img src="img/email.png" alt="Email Me" />
+            </a>
+            <h6>Email me</h6>
+          </div>
+          <div class="col-md-4 linkedin-contact text-center">
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img src="img/linkedin.png" alt="LinkedIn" />
+            </a>
+            <h6>LinkedIn</h6>
+          </div>
+          <div class="col-md-4 github-contact text-center">
+            <a href="https://github.com/" target="_blank">
+              <img src="img/github.png" alt="My Github" />
+            </a>
+            <h6>Github</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- B O O T S T R A P   S C R I P T S  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
