@@ -1,10 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
 
+/* C O L O R S 
+
+$coffee: #cdaea8
+$light-coffee: #f2eae8
+$dark-brown: #8b5a50
+$light-gray: #ececec
+$blk: #5a5a5a */
+
+.personal-logo {
+  height: 200px;
+  width: 200px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.hero {
+  padding: 30px, auto;
+  /* text-align: left;
+  max-width: 700px;
+  max-height: 700px;
+  padding-left: 60px; */
+}
+
 h1 {
-  font-family: Satisfy;
+  font-family: "Yellowtail", cursive;
   font-size: 50px;
   padding-top: 20px;
   text-align: center;
@@ -12,19 +39,27 @@ h1 {
 
 h3 {
   color: #8b5a50;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+h6,
+#city {
+  font-family: "Urbanist", sans-serif;
   text-align: center;
 }
 
 h6 {
+  font-family: "Urbanist", sans-serif;
   text-align: center;
 }
 
 #bio {
-  text-align: center;
 }
 
 p {
   color: #5a5a5a;
+  font-family: "Urbanist", sans-serif;
 }
 
 a {
@@ -54,10 +89,22 @@ button:hover {
   border: 1px solid #5a5a5a;
 }
 
+.selfie {
+  background-image: url(/assets/images/selfie.jpeg);
+  background-position: 50% 60%;
+  height: 500px;
+  background-size: cover;
+  float: right;
+}
+
+.dev-info {
+  padding: 3rem 2rem;
+}
+
 .nav {
   background: #ffffff;
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .nav a {
@@ -65,6 +112,7 @@ button:hover {
   color: #5a5a5a;
   padding: 10px 0px 10px 20px;
   font-size: 12px;
+  font-family: "Urbanist", sans-serif;
   text-transform: uppercase;
   -webkit-transition: background 0.25s;
   transition: background 0.25s;
@@ -82,16 +130,11 @@ button:hover {
   color: #5a5a5a !important;
 }
 
-.name-logo {
-  font-size: 22px;
-}
-
 .home {
-  height: 575px;
+  height: 600px;
 }
 
 .bio {
-  background: yellow;
   height: 550px;
 }
 
@@ -103,6 +146,7 @@ button:hover {
 
 .about {
   background: #ececec;
+  margin-top: 30px;
 }
 
 .about ul {
@@ -115,11 +159,12 @@ button:hover {
   height: 50px;
   padding-left: 25px;
   font-weight: bold;
+  font-family: "Urbanist", sans-serif;
 }
 
 .contact {
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   background: #f2eae8;
 }
 
@@ -148,7 +193,7 @@ button:hover {
 
 .projects {
   -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .projects p {
